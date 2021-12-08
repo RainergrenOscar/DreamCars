@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"); //Title Font
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"); // logo font
+
+//Variables
+$title-color: #ffe5a9;
+$my-color: #020202;
+$grey: #e5e5e5;
+
+//font variables
+$title-font: "Racing Sans One", cursive;
+$nav-font: "DM Sans", sans-serif;
+
+html body {
+  background: $my-color;
+  padding-top: 50px;
+}
+
+#imageSlider {
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+}
+
+.BUTOS {
+  margin: 0% 35% 4%;
+}
+
+.BUTOS2 {
+  margin: 0% 40% 4%;
+}
+
+#latestCars {
+  font-size: 2.5vw;
+  color: $title-color;
+}
+
+.contact-page {
+  font-family: $nav-font;
+  .form-control {
+    border-radius: 10px;
+  }
+  h1 {
+    font-family: $title-font;
+  }
+}
+
+.navbar {
+  font-family: $nav-font;
+}
+
+#nav-color {
+  background: rgba(0, 0, 0, 0.541);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-color {
+  background: $grey;
+}
+
+.ourFooter {
+  background-color: $my-color;
+}
+
+.one {
+  margin: 30px 20px;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+}
+
+.landingcar {
+  position: relative;
+  text-align: center;
+  color: white;
+  h2 {
+    font-size: 5vw;
+    font-family: $title-font;
+    color: $title-color;
+  }
+  .top-left {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 7%;
+    right: 13%;
+  }
+}
